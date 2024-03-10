@@ -1,0 +1,25 @@
+******************************************************
+Number of employees working as MANAGER are: 1
+******************************************************
+1. Manager Details:
+Store Details: Sinar Pratama Komunika
+Employee Name: Farid Aryadi
+Base Pay: $4000000.0
+Number of Hours worked: 15.0hrs
+Payment Rate per hour: $50000.0/hr
+Total Sales in store: $4000.0
+Sales done: $3900.0
+Percentage of sales done: 97.50%
+Gross Payment: $4797500.0
+Remaining store revenue: $-4746119.4
+******************************************************
+Number of employees working as SALES ASSOCIATES are: 1
+******************************************************
+Store Details: Sinar Pratama Komunika
+Employee Name: Hanif Juliansyah
+Base Pay: $1000000.0
+Number of Hours worked: 8.0hrs
+Payment Rate per hour: $20000.0/hr
+Sales Rate: 2000.0%
+Total commission: $100000.0
+Gross Payment: $1260000.0

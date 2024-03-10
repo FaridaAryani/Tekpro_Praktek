@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-03-10T13:54:30.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JdsD73cAG1udY328AvnQ" version="24.0.4" type="device">
+  <diagram name="Page-1" id="NHptP-GaeHJsHxJYP2S9">
+    <mxGraphModel dx="2780" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pheskcdo_tpi253CAqKr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pheskcdo_tpi253CAqKr-1" target="pheskcdo_tpi253CAqKr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pheskcdo_tpi253CAqKr-1" target="pheskcdo_tpi253CAqKr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pheskcdo_tpi253CAqKr-1" target="pheskcdo_tpi253CAqKr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pheskcdo_tpi253CAqKr-1" target="pheskcdo_tpi253CAqKr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pheskcdo_tpi253CAqKr-1" target="pheskcdo_tpi253CAqKr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-1" value="AbstractStoreEmployee&lt;div&gt;basePay : double&lt;/div&gt;&lt;div&gt;employeeName : String&lt;/div&gt;&lt;div&gt;hourlyRate : double&lt;/div&gt;&lt;div&gt;numberOfHoursWarked : double&lt;/div&gt;&lt;div&gt;storeDetails: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AbstractStoreEmployeeName(numberofHoursWorked : double, hourlyRate : double, storeDetails :String, basePay : double, employeeName : String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;calculateCommision() : double&lt;/div&gt;&lt;div&gt;calculatePay() : double&lt;/div&gt;&lt;div&gt;calculateRemainingStoreRevenve(storeSales) : double&lt;/div&gt;&lt;div&gt;checkPromotionEligibility() : boolean&lt;/div&gt;&lt;div&gt;getBasePay() : double&lt;/div&gt;&lt;div&gt;setBasePay(basePay: double) : void&lt;/div&gt;&lt;div&gt;getEmployeeName() : String&lt;/div&gt;&lt;div&gt;setEmployeeName(employeeName : String) : void&lt;/div&gt;&lt;div&gt;getHourlyRate() : double&lt;/div&gt;&lt;div&gt;setHourlyRate(hourlyRate : double) : void&lt;/div&gt;&lt;div&gt;getNumberOfHoursWorked() : double&lt;/div&gt;&lt;div&gt;setNumberOfHoursWorked(numberOfHoursWorked : double) : void&lt;/div&gt;&lt;div&gt;setStoreDetails(storeDetails : String) : void&lt;/div&gt;&lt;div&gt;toString() : String&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="370" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-2" value="Employee&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;calculatePay() : double&lt;/div&gt;&lt;div&gt;checkPromotionEligibility() : boolean&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="50" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-5" value="Story&lt;div&gt;&lt;br&gt;&lt;div&gt;COMMISSION_RATE : double = 0.10&lt;/div&gt;&lt;div&gt;TAX : double = 0.14&lt;/div&gt;&lt;div&gt;calculateCommission(): double&lt;/div&gt;&lt;div&gt;calculateRemainingStroreRevenve(storeSales : double) : double&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-7" value="salesAssociate&lt;div&gt;salesRare() : double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;salesAssociate(salesRate : double, numberOfHoursWorked : double, hourlyRate : double, storeDetails : String, associateName : String, basePay : double)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;calculateCommision() : double&lt;/div&gt;&lt;div&gt;calculatePay() : double&lt;/div&gt;&lt;div&gt;checkPromotionEligibility() : boolean&lt;/div&gt;&lt;div&gt;getSalesRate() : double&lt;/div&gt;&lt;div&gt;toString() : String&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="770" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="pheskcdo_tpi253CAqKr-9" value="Manager&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;bonusRate() : double&lt;/div&gt;&lt;div&gt;salesDone() : double&lt;/div&gt;&lt;div&gt;totalStoreSales() : double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Manager(totalStoreSales : double, salesDone : double, numberOfHoursWorks : double, hourlyRate : double, storeDetails : String, basePay : double, name : String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;calculatePay() : double&lt;/div&gt;&lt;div&gt;checkPromotionEligibility() : boolean&lt;/div&gt;&lt;div&gt;getBonusRate() : double&lt;/div&gt;&lt;div&gt;getSalesDone() : double&lt;/div&gt;&lt;div&gt;getTotalStoreSales() : double&lt;/div&gt;&lt;div&gt;salesPercentByManager() : double&lt;/div&gt;&lt;div&gt;setBonusRate(bonusRate : double) : void&lt;/div&gt;&lt;div&gt;setSalesDone(salesDone : double) : void&lt;/div&gt;&lt;div&gt;toString() : String&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="770" width="270" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
